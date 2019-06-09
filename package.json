@@ -4,7 +4,7 @@
   "description": "A tutorial of NODE",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./webserver/src/app.js"
+    "start": "node ./webserver/src/app.js"
   },
   "license": "MIT",
   "devDependencies": {
