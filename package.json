@@ -4,7 +4,7 @@
   "description": "A tutorial of NODE",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./graphql.js --exec babel-node -e js"
+    "start": "nodemon ./webserver/src/app.js"
   },
   "license": "MIT",
   "devDependencies": {
