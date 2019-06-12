@@ -4,7 +4,8 @@
   "description": "A tutorial of NODE",
   "main": "index.js",
   "scripts": {
-    "start": "node ./web-server/src/app.js"
+    "start": "node ./web-server/src/app.js",
+    "dev": "nodemon ./web-server/src/app.js -e js,hbs"
   },
   "license": "MIT",
   "devDependencies": {
@@ -12,6 +13,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
     "chalk": "^2.4.2",
+    "nodemon": "^1.19.1",
     "yargs": "^13.2.4"
   },
   "dependencies": {
@@ -21,7 +23,6 @@
     "graphql-tools": "^4.0.4",
     "hbs": "^4.0.4",
     "mongoose": "^5.5.11",
-    "nodemon": "^1.19.1",
     "request": "^2.88.0"
   }
 }
