@@ -4,8 +4,8 @@
   "description": "A tutorial of NODE",
   "main": "index.js",
   "scripts": {
-    "start": "node ./web-server/src/app.js",
-    "dev": "nodemon ./web-server/src/app.js -e js,hbs"
+    "start": "node ./task-app/src/index.js",
+    "dev": "nodemon ./task-app/src/index.js -e js,hbs"
   },
   "license": "MIT",
   "devDependencies": {
@@ -23,6 +23,7 @@
     "graphql-tools": "^4.0.4",
     "hbs": "^4.0.4",
     "mongoose": "^5.5.11",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "validator": "^11.0.0"
   }
 }
